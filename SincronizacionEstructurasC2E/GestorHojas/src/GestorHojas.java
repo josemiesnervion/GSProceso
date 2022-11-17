@@ -1,7 +1,7 @@
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class GestorHojas extends Thread {
-
+//Ejercicio sin terminar, Investigar  CopyOnWriteArrayList
 	private static CopyOnWriteArrayList<String> lista = new CopyOnWriteArrayList<String>();//hay que usar este que es thread safe
 
 	@Override
